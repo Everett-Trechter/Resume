@@ -10,7 +10,15 @@ twitter: everett_ct
 github: Everett-Trechter
 linkedin: Everett Trechter
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Everett is a graduate student studying Public Policy, is primarily interested in social policy and community trust, and has a background in data analysis."
+aboutme: "I am interested in a career centered on research and analysis in the realm of policy,
+political sociology and/or organizational sociology. I am currently looking to gain
+analytic skills and a more in depth understanding of research methods, theories and
+general knowledge in order to comprehend and help correct the structural inequalities
+of our world. My degree in Industrial Engineering with a focus on Information Systems
+and Computer Science provides a solid foundation of technical skills and experiences
+working with data-driven solutions. In my career I have built on those skills and have
+used them to help government agencies, hospital organizations, and most recently the
+Oce of Admissions and Recruitment at the University of Wisconsin."
 output: 
   vitae::awesomecv
 headcolor: 77815c
@@ -20,13 +28,25 @@ headcolor: 77815c
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
+library(tidyverse)
 ```
 
-#Some stuff about me
-## Sub header
- * I poisoned myself doing research.
- * I was the first woman to win a Nobel prize
- * I was the first person and only woman to win a Nobel prize in two different sciences.
+#Skills
+ * Data Analysis (using R)
+ * Data Reporting and Visualization (R, Excel, and Tableau)
+ * Geographical Information Systems (QGIS and ArcGIS)
+ * Relational Database Design and SQL
+ * PeopleSoft Query Tools, PeopleTools, PeopleCode
+ * Familiar with Java, HTML/CSS, Javascript, Python, and R
+ * Skilled with Microsoft Oce Suite, including VBA Macros and MS Access
+ * Troubleshooting and creative problem solving
+ * Quick learning, speed reading
 
-# Is this going to hppen
- * sure hope not
+# Education
+```{r}
+tribble(
+  ~ degree, ~ uni, ~school, ~ dates, ~ details,
+  "B.Eng in Industrial Engineering", "University of Pittsburgh","Swanson School of Engineering","2007 - 2011","Magna Cum Laude"
+)%>%
+  detailed_entries(degree, dates, uni, school, details)
+```
