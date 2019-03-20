@@ -46,7 +46,7 @@ library(tidyverse)
 ```{r}
 tribble(
   ~ degree, ~ uni, ~school, ~ dates, ~ details,
-  "B.Eng in Industrial Engineering", "University of Pittsburgh","Swanson School of Engineering","2007 - 2011","Magna Cum Laude"
+  "Bachelor of Science in Industrial Engineering", "University of Pittsburgh","Swanson School of Engineering","2007 - 2011","Magna Cum Laude"
 )%>%
   detailed_entries(degree, dates, uni, school, details)
 ```
@@ -68,13 +68,13 @@ the office",
  "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Handled many on-going and ad-hoc data requests from campus partners, counselors, and others.",
  "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Implemented technical imports of the SAT, ACT, and other academic test data
 files through redesigns and ongoing updates to other academic test imports.",
- "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Represented the Admissions Oce in the University-wide Data Integrity Group
+ "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Represented the Admissions Office in the University-wide Data Integrity Group
 to standardize data reporting.",
 "Technical Services","Epic","2012 - 2014"," Supported a health care organization through installing, optimizing, and upgrading Epic software. This included planning and overseeing long term projects,
 quickly responding to requests and issues that arose, and troubleshooting bugs
 in the Epic software.",
 "Technical Services","Epic","2012 - 2014","Became an expert on the communication infrastructure needed for Epic’s mobile
-applications to connect to our customer’s databases, and lead an e↵ort to change
+applications to connect to our customer’s databases, and lead an effort to change
 our recommended server configuration.",
 "Technical Services","Epic","2012 - 2014","Developed a handful of bug fixes and enhancements to our ambulatory and handheld software.",
 "Cop-op/Intern Research Assistant","LMI","2009 - 2011","Assisted in a review of the Oce of the Undersecretary of Defense for Acquisition,
@@ -90,3 +90,38 @@ Services Administration."
 )%>%
   detailed_entries(role, dates, company,, details)
 ```
+
+#Volunteer and Other Experience 
+```{r}
+tribble(
+  ~role, ~org, ~dates, ~deets,
+  "Membership Committee Secretary","Democratic Party of Dane County","2017 - Present","Interviewed and worked with a number of experienced members of the Democratic Party of Wisconsin to create a presentation to introduce the organizational structure of the Democratic Party to other newcomers, which I then presented
+on multiple occasions",
+  "Membership Committee Secretary","Democratic Party of Dane County","2017 - Present","Facilitated the planning of multiple community events, several with 100+ attendees",
+  "Volunteer","MOSES: Madison Organizing in SOlidarity, Equity, and Strength","2016 - 2017","Helped implement CiviCRM and a new installation of WordPress to help their
+efforts in reforming Wisconsin’s prison system",
+  "Student","University of Pittsburgh","2007 - 2011","Observed and analyzed patient trac and work flows in the Pittsburgh Veterans Affairs Emergency Department as senior project, culminating in a model of
+patient flow and recommended process improvements.",
+  "Student","University of Pittsburgh","2007 - 2011","Designed contact database for Urban Youth Action, a non-profit in Pittsburgh that tutors and mentors high schoolers.",
+  "Student","University of Pittsburgh","2007 - 2011","Focused on Databases and Computer Science."
+)%>%
+  detailed_entries(role, dates, org,,deets)
+```
+
+# Academic Interests
+ * Political Sociology
+ * Organizational Sociology
+ * Democracy and alternate organizing structures
+ * Combating online behavioral modification and manipulation on social media
+ * Network Dynamics
+ * Poverty, Segregation, and Inequality
+ * Trans issues and theory
+ * Fascism
+ * Sociology of Religion
+ 
+# Personal Interests
+ * Flint, Michigan
+ * Ukulele, guitar, piano, vocal performance, and music production
+ * Knitting
+ * Gerdening and sustainable small scale agriculture
+
