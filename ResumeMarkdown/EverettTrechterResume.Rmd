@@ -50,3 +50,43 @@ tribble(
 )%>%
   detailed_entries(degree, dates, uni, school, details)
 ```
+
+#Experience
+```{r}
+tribble(
+  ~ role, ~ company, ~ dates, ~ details,
+  "Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - Present","Represented OAR on various campus committees to help coordinate campus wide
+data governance policies",
+ "Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - Present","Found various data sources and angles of analysis to direct marketing strategies
+to increase applications and enrollment from various populations",
+"Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - Present","Continued finding needs and uses for data visualization dashboards throughout
+the office",
+ "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Supported collection and processing of prospective applicant data.",
+ "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Analyzed applicant and recruiting data in reports to support decision making.",
+ "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Began use of geographical data and maps for recruitment decision making.",
+ "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Developed an inventory tracking database for recruiting supplies.",
+ "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Handled many on-going and ad-hoc data requests from campus partners, counselors, and others.",
+ "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Implemented technical imports of the SAT, ACT, and other academic test data
+files through redesigns and ongoing updates to other academic test imports.",
+ "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Represented the Admissions Oce in the University-wide Data Integrity Group
+to standardize data reporting.",
+"Technical Services","Epic","2012 - 2014"," Supported a health care organization through installing, optimizing, and upgrading Epic software. This included planning and overseeing long term projects,
+quickly responding to requests and issues that arose, and troubleshooting bugs
+in the Epic software.",
+"Technical Services","Epic","2012 - 2014","Became an expert on the communication infrastructure needed for Epic’s mobile
+applications to connect to our customer’s databases, and lead an e↵ort to change
+our recommended server configuration.",
+"Technical Services","Epic","2012 - 2014","Developed a handful of bug fixes and enhancements to our ambulatory and handheld software.",
+"Cop-op/Intern Research Assistant","LMI","2009 - 2011","Assisted in a review of the Oce of the Undersecretary of Defense for Acquisition,
+Technology, and Logistics by interviewing employees, categorizing interviewee
+responses, and analyzing them for patterns to contribute to recommendations to
+the Oce.",
+"Cop-op/Intern Research Assistant","LMI","2009 - 2011","Conducted a comparison of operating and support costs of military materiel gathered from various sources into multiple data systems, and assessed the validity of
+the data within those systems",
+"Cop-op/Intern Research Assistant","LMI","2009 - 2011"," Assisted a large scale study on the cost of corrosion to the U.S. Department of
+Defense by repairing and analyzing large amounts of data.",
+"Cop-op/Intern Research Assistant","LMI","2009 - 2011","Designed and created relational database and accompanying user interface to assess and rewrite Product/Service purchasing codes for the United States General
+Services Administration."
+)%>%
+  detailed_entries(role, dates, company,, details)
+```
