@@ -1,7 +1,7 @@
 ---
 name: Everett Trechter
-position: "Data Analyst, Student of Public Policy"
-address: "Hubert Humphrey - University of Minnesota"
+position: "Data Analyst, Graduate Student of Public Policy Starting Fall 2019"
+address: "Hubert Humphrey School of Public Affairs, University of Minnesota"
 phone: 810.931.6633
 profilepic: me.jpg
 www: www.everettcarytrechter.com
@@ -10,15 +10,10 @@ twitter: everett_ct
 github: Everett-Trechter
 linkedin: Everett Trechter
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "I am interested in a career centered on research and analysis in the realm of policy,
-political sociology and/or organizational sociology. I am currently looking to gain
-analytic skills and a more in depth understanding of research methods, theories and
-general knowledge in order to comprehend and help correct the structural inequalities
+aboutme: "I am interested in a career centered on research and analysis in the realm of policy, political sociology and/or organizational sociology. I am further interested in the specific realms of prison/criminal justice system reform, racial equity, and political change. I am currently looking to gain a more in depth understanding of research methods nd domain knowledge in order to comprehend and help correct the structural inequalities
 of our world. My degree in Industrial Engineering with a focus on Information Systems
 and Computer Science provides a solid foundation of technical skills and experiences
-working with data-driven solutions. In my career I have built on those skills and have
-used them to help government agencies, hospital organizations, and most recently the
-Oce of Admissions and Recruitment at the University of Wisconsin."
+working with data-driven solutions, and in my career and volunteer activities I have built on those skills and have used them to help government agencies, hospital organizations, advocacy organizations, the Democratic Party, and the University of Wisconsin."
 output: 
   vitae::awesomecv
 headcolor: 77815c
@@ -38,7 +33,7 @@ library(tidyverse)
  * Relational Database Design and SQL
  * PeopleSoft Query Tools, PeopleTools, PeopleCode
  * Familiar with Java, HTML/CSS, Javascript, Python, and R
- * Skilled with Microsoft Oce Suite, including VBA Macros and MS Access
+ * Skilled with Microsoft Office Suite, including VBA Macros and MS Access
  * Troubleshooting and creative problem solving
  * Quick learning, speed reading
 
@@ -56,9 +51,8 @@ tribble(
 tribble(
   ~ role, ~ company, ~ dates, ~ details,
   "Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - Present","Represented OAR on various campus committees to help coordinate campus wide
-data governance policies",
- "Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - Present","Found various data sources and angles of analysis to direct marketing strategies
-to increase applications and enrollment from various populations",
+data governance policy",
+ "Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - Present","Found various data sources and angles of analysis to direct marketing strategies",
 "Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - Present","Continued finding needs and uses for data visualization dashboards throughout
 the office",
  "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Supported collection and processing of prospective applicant data.",
@@ -77,10 +71,10 @@ in the Epic software.",
 applications to connect to our customer’s databases, and lead an effort to change
 our recommended server configuration.",
 "Technical Services","Epic","2012 - 2014","Developed a handful of bug fixes and enhancements to our ambulatory and handheld software.",
-"Cop-op/Intern Research Assistant","LMI","2009 - 2011","Assisted in a review of the Oce of the Undersecretary of Defense for Acquisition,
+"Cop-op/Intern Research Assistant","LMI","2009 - 2011","Assisted in a review of the Office of the Undersecretary of Defense for Acquisition,
 Technology, and Logistics by interviewing employees, categorizing interviewee
 responses, and analyzing them for patterns to contribute to recommendations to
-the Oce.",
+the Office.",
 "Cop-op/Intern Research Assistant","LMI","2009 - 2011","Conducted a comparison of operating and support costs of military materiel gathered from various sources into multiple data systems, and assessed the validity of
 the data within those systems",
 "Cop-op/Intern Research Assistant","LMI","2009 - 2011"," Assisted a large scale study on the cost of corrosion to the U.S. Department of
@@ -112,16 +106,14 @@ patient flow and recommended process improvements.",
  * Political Sociology
  * Organizational Sociology
  * Democracy and alternate organizing structures
- * Combating online behavioral modification and manipulation on social media
- * Network Dynamics
  * Poverty, Segregation, and Inequality
  * Trans issues and theory
  * Fascism
- * Sociology of Religion
+ * Prision and Criminal Justice Reform
  
 # Personal Interests
  * Flint, Michigan
  * Ukulele, guitar, piano, vocal performance, and music production
  * Knitting
- * Gerdening and sustainable small scale agriculture
+ * Gardening and sustainable small scale agriculture
 
