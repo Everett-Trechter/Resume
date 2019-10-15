@@ -1,6 +1,6 @@
 ---
 name: Everett Trechter
-position: "Data Analyst, Graduate Student of Public Policy Starting Fall 2019"
+position: "Data Analyst, Graduate Student of Public Policy, he/him pronouns"
 address: "Hubert Humphrey School of Public Affairs, University of Minnesota"
 phone: 810.931.6633
 profilepic: me.jpg
@@ -8,12 +8,11 @@ www: www.everettcarytrechter.com
 email: "everett.trechter@gmail.com"
 twitter: everett_ct
 github: Everett-Trechter
+extrainfo: "he/him"
 linkedin: Everett Trechter
+
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "I am interested in a career centered on research and analysis in the realm of policy, political sociology and/or organizational sociology. I am further interested in the specific realms of prison/criminal justice system reform, racial equity, and political change. I am currently looking to gain a more in depth understanding of research methods nd domain knowledge in order to comprehend and help correct the structural inequalities
-of our world. My degree in Industrial Engineering with a focus on Information Systems
-and Computer Science provides a solid foundation of technical skills and experiences
-working with data-driven solutions, and in my career and volunteer activities I have built on those skills and have used them to help government agencies, hospital organizations, advocacy organizations, the Democratic Party, and the University of Wisconsin."
+aboutme: "I am interested in a career centered on research and analysis in the realm of policy, political sociology, and organizational sociology, particularly in the realms of education, family policy, and network effects."
 output: 
   vitae::awesomecv
 headcolor: 77815c
@@ -27,21 +26,21 @@ library(tidyverse)
 ```
 
 #Skills
- * Data Analysis (using R)
- * Data Reporting and Visualization (R, Excel, and Tableau)
+ * Troubleshooting and creative problem solving
+ * Quick learning, speed reading
+ * Data Analysis and Visualization (R, Excel, and Tableau)
  * Geographical Information Systems (QGIS and ArcGIS)
  * Relational Database Design and SQL
  * PeopleSoft Query Tools, PeopleTools, PeopleCode
  * Familiar with Java, HTML/CSS, Javascript, Python, and R
  * Skilled with Microsoft Office Suite, including VBA Macros and MS Access
- * Troubleshooting and creative problem solving
- * Quick learning, speed reading
+
 
 # Education
 ```{r}
 tribble(
   ~ degree, ~ uni, ~school, ~ dates, ~ details,
-  "Bachelor of Science in Industrial Engineering", "University of Pittsburgh","Swanson School of Engineering","2007 - 2011","Magna Cum Laude"
+  "Bachelor of Science in Industrial Engineering", "University of Pittsburgh","Swanson School of Engineering","2007 - 2011","Magna Cum Laude","Masters of Public Policy","University of Minnesota","Hubert H Humphrey School of Public Affairs","2019-2021(preditcted)","In progress, focusing on policy analysis and social policy"
 )%>%
   detailed_entries(degree, dates, uni, school, details)
 ```
@@ -50,10 +49,10 @@ tribble(
 ```{r}
 tribble(
   ~ role, ~ company, ~ dates, ~ details,
-  "Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - Present","Represented OAR on various campus committees to help coordinate campus wide
+  "Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - 2019","Represented OAR on various campus committees to help coordinate campus wide
 data governance policy",
- "Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - Present","Found various data sources and angles of analysis to direct marketing strategies",
-"Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - Present","Continued finding needs and uses for data visualization dashboards throughout
+ "Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - 2019","Found various data sources and angles of analysis to direct marketing strategies",
+"Senior Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2017 - 2019","Continued finding needs and uses for data visualization dashboards throughout
 the office",
  "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Supported collection and processing of prospective applicant data.",
  "Information Specialist","University of Wisconsin Office of Admissions and Recruitment","2014 - 2017","Analyzed applicant and recruiting data in reports to support decision making.",
@@ -67,8 +66,8 @@ to standardize data reporting.",
 "Technical Services","Epic","2012 - 2014"," Supported a health care organization through installing, optimizing, and upgrading Epic software. This included planning and overseeing long term projects,
 quickly responding to requests and issues that arose, and troubleshooting bugs
 in the Epic software.",
-"Technical Services","Epic","2012 - 2014","Became an expert on the communication infrastructure needed for Epic’s mobile
-applications to connect to our customer’s databases, and lead an effort to change
+"Technical Services","Epic","2012 - 2014","Became an expert on the communication infrastructure needed for Epic's mobile
+applications to connect to our customer's databases, and lead an effort to change
 our recommended server configuration.",
 "Technical Services","Epic","2012 - 2014","Developed a handful of bug fixes and enhancements to our ambulatory and handheld software.",
 "Cop-op/Intern Research Assistant","LMI","2009 - 2011","Assisted in a review of the Office of the Undersecretary of Defense for Acquisition,
@@ -92,7 +91,7 @@ tribble(
   "Membership Committee Secretary","Democratic Party of Dane County","2017 - Present","Interviewed and worked with a number of experienced members of the Democratic Party of Wisconsin to create a presentation to introduce the organizational structure of the Democratic Party to other newcomers, which I then presented
 on multiple occasions",
   "Membership Committee Secretary","Democratic Party of Dane County","2017 - Present","Facilitated the planning of multiple community events, several with 100+ attendees",
-  "Volunteer","MOSES: Madison Organizing in SOlidarity, Equity, and Strength","2016 - 2017","Helped implement CiviCRM and a new installation of WordPress to help their
+  "Volunteer","MOSES: Madison Organizing in Solidarity, Equity, and Strength","2016 - 2017","Helped implement CiviCRM and a new installation of WordPress to help their
 efforts in reforming Wisconsin’s prison system",
   "Student","University of Pittsburgh","2007 - 2011","Observed and analyzed patient trac and work flows in the Pittsburgh Veterans Affairs Emergency Department as senior project, culminating in a model of
 patient flow and recommended process improvements.",
@@ -110,6 +109,8 @@ patient flow and recommended process improvements.",
  * Trans issues and theory
  * Fascism
  * Prision and Criminal Justice Reform
+ * Education
+ * Family Policy
  
 # Personal Interests
  * Flint, Michigan
